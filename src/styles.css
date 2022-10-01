@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Noto+Serif&family=Permanent+Marker&family=Satisfy&display=swap");
+
+.App {
+  padding: 0rem 2rem;
+}
+body {
+  font-family: "Noto Serif", serif;
+  background-color: #bfa9e0;
+}
