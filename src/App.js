@@ -122,7 +122,8 @@ export default function App() {
                 width: "80%",
                 margin: "1rem 0rem",
                 borderRadius: "5px",
-                listStyle: "none"
+                listStyle: "none",
+                backgroundColor: "#FFF3E5F5"
               }}
               key={book.name}
             >
