@@ -90,24 +90,26 @@ export default function App() {
       <p style={{ fontSize: "x-large", textAlign: "center" }}>
         Checkout my favorite music. Select a genre to get started.
       </p>
-      {library.map((item) => (
-        <button
-          onClick={() => genreClickHandler(item)}
-          style={{
-            textAlign: "center",
-            margin: "1rem 3rem",
-            fontSize: "15px",
-            fontWeight: "bolder",
-            padding: "0.5rem 3.5rem",
-            cursor: "pointer",
-            border: "1.5px solid black",
-            borderRadius: "10px",
-            background: "#A689E1"
-          }}
-        >
-          {item}
-        </button>
-      ))}
+      <div style={{ textAlign: "center" }}>
+        {library.map((item) => (
+          <button
+            onClick={() => genreClickHandler(item)}
+            style={{
+              textAlign: "center",
+              margin: "1rem 3rem",
+              fontSize: "15px",
+              fontWeight: "bolder",
+              padding: "0.5rem 3.5rem",
+              cursor: "pointer",
+              border: "1.5px solid black",
+              borderRadius: "10px",
+              background: "#A689E1"
+            }}
+          >
+            {item}
+          </button>
+        ))}
+      </div>
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
